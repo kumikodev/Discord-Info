@@ -1,8 +1,6 @@
 import os
 import sys
 import time
-import colorama
-import random
 import requests
 
 token = "YOUR DISCORD TOKEN"
