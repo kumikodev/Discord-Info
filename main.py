@@ -7,12 +7,6 @@ token = "YOUR DISCORD TOKEN"
 
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
-    
-def print_slow(str):
-    for letter in str:
-        sys.stdout.write(letter)
-        sys.stdout.flush()
-        time.sleep(0.1)
 
 
 def getIP():
